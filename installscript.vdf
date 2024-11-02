@@ -1,0 +1,23 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"eac32"
+		{
+			"Process 1"		"%INSTALLDIR%\\game\\x86\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+			"Command 1"     "install 5368f4df26ec4f749d79e0129648f9d5"
+			"NoCleanUp"		"1"
+		}
+
+		"eac64"
+		{
+			"Process 1"		"%INSTALLDIR%\\game\\x64\\EasyAntiCheat\\EasyAntiCheat_EOS_Setup.exe"
+			"Command 1"     "install 5368f4df26ec4f749d79e0129648f9d5"
+			"NoCleanUp"		"1"
+			"Requirement_OS"
+			{
+				"Is64BitWindows"  "1"
+			}
+		}
+	}
+}

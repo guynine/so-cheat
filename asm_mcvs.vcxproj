@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{49f7ae99-af65-4e18-b22e-cbcb6696647b}</ProjectGuid>
+    <RootNamespace>asmmcvs</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>so_external</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>D:\Работа\so_external-master %281%29\LITEPACK\so-soft;$(IncludePath)</IncludePath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+    <ReferencePath>D:\Работа\so_external-master %281%29\FULLPACK;$(ReferencePath)</ReferencePath>
+    <LibraryPath>D:\Работа\so_external-master %281%29\FULLPACK;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\bin</OutDir>
+    <IntDir>$(SolutionDir)$(Platform)\$(Configuration)\trash</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="asm_mcvs.cc" />
+    <ClCompile Include="test_admin_root.cc" />
+    <ClCompile Include="BigWorld\bw_entities.cc" />
+    <ClCompile Include="BigWorld\bw_python.cc" />
+    <ClCompile Include="Addr.cc" />
+    <ClCompile Include="temp_overlay\Imgui\imgui.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_demo.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_draw.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_glitch.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_impl_dx9.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_tables.cpp" />
+    <ClCompile Include="temp_overlay\Imgui\imgui_widgets.cpp" />
+    <ClCompile Include="temp_overlay\overlay.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="auth.hpp" />
+    <ClInclude Include="BigWorld\bw_entities.hh" />
+    <ClInclude Include="BigWorld\bw_python.hh" />
+    <ClInclude Include="BigWorld\bw_offsets.hh" />
+    <ClInclude Include="BigWorld\bw_globals.hh" />
+    <ClInclude Include="CSkyDBK.h" />
+    <ClInclude Include="screensize2.h" />
+    <ClInclude Include="screensize.h" />
+    <ClInclude Include="classes.h" />
+    <ClInclude Include="common\async_wininet.h" />
+    <ClInclude Include="common\compiletime.h" />
+    <ClInclude Include="common\dbvm.h" />
+    <ClInclude Include="common\defclass.h" />
+    <ClInclude Include="common\encrypt_string.h" />
+    <ClInclude Include="common\exception.h" />
+    <ClInclude Include="common\fixed_string.hpp" />
+    <ClInclude Include="common\function_ref.hpp" />
+    <ClInclude Include="common\harderror.h" />
+    <ClInclude Include="common\ida_defs.h" />
+    <ClInclude Include="common\initializer.h" />
+    <ClInclude Include="common\kernel.h" />
+    <ClInclude Include="common\msrnames.h" />
+    <ClInclude Include="common\obcallback.h" />
+    <ClInclude Include="common\patternscan.h" />
+    <ClInclude Include="common\peb.h" />
+    <ClInclude Include="common\physicalmemory.h" />
+    <ClInclude Include="common\process.h" />
+    <ClInclude Include="common\remoteprocess.h" />
+    <ClInclude Include="common\shellcode.h" />
+    <ClInclude Include="common\util.h" />
+    <ClInclude Include="Addr.hh" />
+    <ClInclude Include="BigWorld\py_offsets.hh" />
+    <ClInclude Include="BigWorld\Vectors.hh" />
+    <ClInclude Include="Drawing.h" />
+    <ClInclude Include="icontext.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="temp_overlay\Header.h" />
+    <ClInclude Include="temp_overlay\Imgui\imgui_glitch.h" />
+    <ClInclude Include="temp_overlay\lagsw.hh" />
+    <ClInclude Include="temp_overlay\menu_vars.hh" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9anim.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9core.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9effect.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9math.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9mesh.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9shader.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9shape.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9tex.h" />
+    <ClInclude Include="temp_overlay\Direct3d\d3dx9xof.h" />
+    <ClInclude Include="temp_overlay\Imgui\imconfig.h" />
+    <ClInclude Include="temp_overlay\Imgui\imgui.h" />
+    <ClInclude Include="temp_overlay\Imgui\imgui_impl_dx9.h" />
+    <ClInclude Include="temp_overlay\Imgui\imgui_impl_win32.h" />
+    <ClInclude Include="temp_overlay\Imgui\imgui_internal.h" />
+    <ClInclude Include="temp_overlay\Imgui\imstb_rectpack.h" />
+    <ClInclude Include="temp_overlay\Imgui\imstb_textedit.h" />
+    <ClInclude Include="temp_overlay\Imgui\imstb_truetype.h" />
+    <ClInclude Include="temp_overlay\overlay.h" />
+    <ClInclude Include="userinfo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="common\dbvm_.asm">
+      <FileType>Document</FileType>
+    </MASM>
+    <MASM Include="common\kernel_.asm">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="temp_overlay\Direct3d\d3dx9math.inl" />
+    <None Include="temp_overlay\lagswitch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib" />
+    <Library Include="library_x64.lib" />
+    <Library Include="temp_overlay\Direct3d\d3d9.lib" />
+    <Library Include="temp_overlay\Direct3d\d3dx9.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="OpenFontIcons.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

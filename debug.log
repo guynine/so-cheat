@@ -1,0 +1,274 @@
+[0615/132924.416:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0615/132935.678:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 7
+[0615/132935.681:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 19
+[0615/132935.687:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 21
+[0615/175141.936:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0615/175141.937:ERROR:broker_win.cc(56)] Error reading broker pipe: Канал был закрыт. (0x6D)
+[0616/172506.095:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0616/172506.329:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0616/172513.252:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0623/155850.622:INFO:CONSOLE(1)] "Mixed Content: The page at 'https://stalker.so/news/last/ru' was loaded over HTTPS, but requested an insecure element 'http://stalker.so/news/images/64941ffe1b461.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html", source: https://stalker.so/news/last/ru (1)
+[0623/155850.622:INFO:CONSOLE(1)] "Mixed Content: The page at 'https://stalker.so/news/last/ru' was loaded over HTTPS, but requested an insecure element 'http://stalker.so/news/images/6493ea3d918db.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html", source: https://stalker.so/news/last/ru (1)
+[0623/155850.704:INFO:CONSOLE(237)] "Mixed Content: The page at 'https://stalker.so/news/last/ru' was loaded over HTTPS, but requested an insecure element 'http://stalker.so/news/images/64941ffe1b461.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html", source: https://stalker.so/news/last/ru (237)
+[0623/155850.704:INFO:CONSOLE(237)] "Mixed Content: The page at 'https://stalker.so/news/last/ru' was loaded over HTTPS, but requested an insecure element 'http://stalker.so/news/images/6493ea3d918db.png'. This request was automatically upgraded to HTTPS, For more information see https://blog.chromium.org/2019/10/no-more-mixed-messages-about-https.html", source: https://stalker.so/news/last/ru (237)
+[0623/155852.176:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0623/155904.725:WARNING:frame_impl.cc(431)] OnDidFinishLoad sent to detached frame 21474836481 [5,1] will be ignored
+[0623/155904.753:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0623/155904.770:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 27
+[0623/155907.329:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0623/222415.104:ERROR:backend_impl.cc(1042)] Critical error found -8
+[0623/222416.068:WARNING:storage_block-inl.h(147)] Failed data load.
+[0623/222418.059:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0623/222449.126:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 21
+[0623/222449.128:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 19
+[0623/222449.133:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 9
+[0623/222457.844:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0626/144906.468:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0626/144912.585:INFO:CONSOLE(0)] "The resource https://cdn.xsolla.net/img/favicon.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://stalker.so/payment/select/ru?remoteUserId=1462279&amount=0&email=kirillbarinkov2%40gmail.com&login=KirillBarinkov (0)
+[0626/144912.585:INFO:CONSOLE(0)] "The resource https://secure.xsolla.com/favicon.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://stalker.so/payment/select/ru?remoteUserId=1462279&amount=0&email=kirillbarinkov2%40gmail.com&login=KirillBarinkov (0)
+[0626/144925.059:INFO:CONSOLE(0)] "The resource https://cdn.xsolla.net/img/favicon.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://stalker.so/payment/select/ru?remoteUserId=1462279&amount=0&email=kirillbarinkov2%40gmail.com&login=KirillBarinkov (0)
+[0626/144925.059:INFO:CONSOLE(0)] "The resource https://secure.xsolla.com/favicon.ico was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.", source: https://stalker.so/payment/select/ru?remoteUserId=1462279&amount=0&email=kirillbarinkov2%40gmail.com&login=KirillBarinkov (0)
+[0626/144930.430:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 15
+[0626/144930.438:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 19
+[0626/144930.438:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 17
+[0626/144930.439:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 9
+[0626/144939.154:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0701/150626.681:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0701/150626.683:ERROR:broker_win.cc(56)] Error reading broker pipe: Канал был закрыт. (0x6D)
+[0701/202701.078:WARNING:frame_impl.cc(431)] OnDidFinishLoad sent to detached frame 21474836481 [5,1] will be ignored
+[0701/202701.113:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0701/202701.125:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0711/141842.900:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0711/141843.886:WARNING:frame_impl.cc(431)] OnDidFinishLoad sent to detached frame 21474836481 [5,1] will be ignored
+[0711/141843.902:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0711/141843.916:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0711/141843.955:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0711/141843.965:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0711/141850.863:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0711/142815.150:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0711/142815.152:ERROR:broker_win.cc(56)] Error reading broker pipe: Канал был закрыт. (0x6D)
+[0720/152128.512:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0720/152129.633:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0720/152129.637:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 7
+[0720/152129.682:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0720/152129.684:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0720/152136.772:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0721/135814.430:WARNING:media_session.cc(939)] RED codec red is missing an associated payload type.
+[0721/135815.996:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 7
+[0721/135815.997:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0721/135816.052:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0721/135816.053:WARNING:spdy_session.cc(3488)] Received WINDOW_UPDATE for invalid stream 9
+[0721/135822.697:WARNING:webrtc_voice_engine.cc(647)] Attempting to stop aecdump when no audio processing module is present
+[0721/140806.849:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0727/201810.435:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201810.476:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201815.443:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201815.488:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201838.929:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201838.952:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201843.936:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/201843.974:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211814.582:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211814.603:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211819.593:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211819.618:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211829.600:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211829.629:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211849.609:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/211849.642:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223846.793:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223846.811:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223851.812:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223851.818:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223901.824:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223901.828:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223921.832:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223921.844:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223954.867:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/223959.876:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224009.888:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224029.908:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224102.925:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224107.936:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224117.947:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224137.967:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224210.999:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224216.008:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224226.019:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/224246.040:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233044.491:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233044.512:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233049.507:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233049.523:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233059.527:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233059.532:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233119.544:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233119.547:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233152.582:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233249.043:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233249.049:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233254.049:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233254.070:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233304.059:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233304.086:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233324.067:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233324.108:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233349.863:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/233349.874:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235403.127:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235403.131:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235408.146:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235408.148:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235418.156:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235418.159:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235438.167:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235438.175:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235511.198:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235516.212:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235526.234:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0727/235546.250:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142515.011:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142515.042:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142520.021:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142520.054:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142530.044:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142530.069:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142550.063:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142550.078:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142623.076:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142628.094:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142638.100:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142713.107:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0728/142713.136:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0805/143007.546:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143007.585:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143008.674:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143008.684:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143008.685:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143008.685:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143009.533:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143009.534:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143011.370:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143011.442:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143011.826:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143011.901:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143016.728:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143016.729:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143017.537:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143017.538:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143026.269:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143026.270:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143028.027:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143028.027:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143034.121:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143035.126:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143035.808:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143036.467:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143100.768:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143100.876:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143101.965:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143101.966:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143105.888:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143106.141:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143106.363:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143106.363:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143122.522:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143122.523:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143122.523:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143122.523:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0805/143125.482:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0805/143125.483:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0805/143125.483:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0805/143125.483:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -101
+[0805/153232.466:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0810/144145.841:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144145.843:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144150.850:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144150.868:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144200.861:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144200.895:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144503.135:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144503.146:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144508.143:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144508.176:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144528.929:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144528.933:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144533.941:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144533.954:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144605.372:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144605.410:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144610.382:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144610.427:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144620.389:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144620.445:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144640.401:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/144640.461:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161524.995:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161525.009:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161530.010:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161530.022:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161540.033:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161540.036:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161600.044:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/161600.055:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/162123.288:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/162123.309:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164611.978:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164612.047:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164616.991:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164617.057:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164627.013:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164627.067:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164647.036:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164647.078:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164720.069:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164725.085:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164735.097:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/164755.111:WARNING:dns_config_service_win.cc(509)] Failed to read DnsConfig.
+[0810/171711.697:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171711.698:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171712.179:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171712.180:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171713.801:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171713.802:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171714.338:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171714.338:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171716.767:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171717.513:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171717.763:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171717.973:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171721.483:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171721.898:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171721.899:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171722.309:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171728.600:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171728.947:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171729.054:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171729.368:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171739.235:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171739.724:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171740.387:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171741.072:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171753.852:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171754.334:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171754.392:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171754.930:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171815.845:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171816.206:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171816.767:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171816.767:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171818.017:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171818.993:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171848.803:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171849.228:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171851.453:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/171851.904:ERROR:ssl_client_socket_impl.cc(999)] handshake failed; returned -1, SSL error code 1, net_error -100
+[0810/191205.719:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
+[0818/000719.871:WARNING:backend_impl.cc(1606)] Messed up entry found.
+[0818/000719.871:ERROR:backend_impl.cc(1042)] Critical error found -8
+[0818/000719.871:ERROR:entry_impl.cc(1077)] No file for c103006e
+[0818/000719.872:WARNING:storage_block-inl.h(147)] Failed data load.
+[0818/000722.733:ERROR:entry_impl.cc(1000)] Failed to save user data
+[0828/132116.117:WARNING:frame_impl.cc(431)] OnDidFinishLoad sent to detached frame 21474836481 [5,1] will be ignored
+[0828/132116.151:WARNING:spdy_session.cc(3541)] Received HEADERS for invalid stream 5
+[0828/140244.963:ERROR:gpu_init.cc(481)] Passthrough is not supported, GL is disabled, ANGLE is 
